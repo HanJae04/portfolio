@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jehan Eslit - Portfolio</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">JEHAN DP. ESLIT</h1>
+            
+            <div class="profile-container">
+                <img src="images/pfp.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            
+            <p class="hero-subtitle">Software Developer & Data Analyst</p>
+            
+            <p>
+                I am passionate about software development, data analytics, and project management, and I am eager to apply these skills in a dynamic tech environment while continuously learning and growing.
+            </p>
+            <p>
+                Currently completing my Computer Science degree, I aim to contribute effectively to the industry by building software and data-driven systems and leveraging my expertise to drive meaningful impact.
+            </p>
+            
+            <a href="#contact" class="cta-btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3 class="skill-title">Programming</h3>
+                <ul class="skill-list">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h3 class="skill-title">Database</h3>
+                <ul class="skill-list">
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                <h3 class="skill-title">Software & Tools</h3>
+                <ul class="skill-list">
+                    <li>Microsoft Office</li>
+                    <li>Power BI</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                <h3 class="skill-title">Project Management</h3>
+                <ul class="skill-list">
+                    <li>Team Leadership</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3 class="skill-title">Problem Solving</h3>
+                <ul class="skill-list">
+                    <li>Analytical Thinking</li>
+                    <li>Creative Solutions</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                <h3 class="skill-title">Communication</h3>
+                <ul class="skill-list">
+                    <li>Technical Documentation</li>
+                    <li>Team Collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+   <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-tabs">
+        <button class="tab-btn active" data-tab="softdev">Software Development</button>
+        <button class="tab-btn" data-tab="dataanalytics">Data Analytics</button>
+    </div>
+
+    <div id="softdevProjects">
+        <div class="project-card">
+
+            <div class="project-img">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-desktop" style="font-size: 60px; color: var(--primary);"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">PC Parts Selection Tool</h3>
+                <p class="project-desc">Web-based application for creative professionals to select compatible PC components with personalized recommendations and community forums.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">PHP</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-desktop" style="font-size: 60px; color: var(--primary);"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Enrollment System</h3>
+                <p class="project-desc">Developed a streamlined enrollment system using SQL and Java, improving data accuracy and operational efficiency.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">NETBEANS JAVA</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-desktop" style="font-size: 60px; color: var(--primary);"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Shoe Inventory System</h3>
+                <p class="project-desc">Developed an inventory management system with real-time stock tracking and reporting capabilities for shoe retailers.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">NETBEANS JAVA</span>
+                    <span class="tech-tag">SQL</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <div class="project-img-placeholder">
+                    <i class="fas fa-desktop" style="font-size: 60px; color: var(--primary);"></i>
+                </div>
+            </div>
+            <div class="project-content">
+                <h3 class="project-title">Shoe E-Commerce Website</h3>
+                <p class="project-desc">Created a responsive website with product catalog, search functionality, and shopping cart for online shoe sales.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="dataanalyticsProjects">
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-chart-bar" style="font-size: 60px; color: var(--primary);"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">NCR PSA Report 2020–2025</h3>
+                    <p class="project-desc">Analyzed and visualized population statistics data for the National Capital Region, identifying key demographic trends.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-money-bill-wave" style="font-size: 60px; color: var(--primary);"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">CAPP Financial Report</h3>
+                    <p class="project-desc">Created comprehensive financial dashboards and reports to track performance metrics and identify optimization opportunities.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Financial Analysis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-shopping-bag" style="font-size: 60px; color: var(--primary);"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Amazon Sales Report 2020–2025</h3>
+                    <p class="project-desc">Analyzed e-commerce sales data to identify market trends, seasonal patterns, and product performance insights.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Data Visualization</span>
+                    </div>
+                </div>
+             </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">January 2025 - March 2025</div>
+                    <h3 class="timeline-title"> INTERNSHIP | TECHNICAL CONSULTANT </h3>
+                    <h4 class="timeline-company">SYSTEMA SOLUTION CANADA INC.</h4>
+                    <p class="timeline-desc">
+                        Provided technical support for computer systems and network infrastructure.
+                        Trained staff members on basic software applications and troubleshooting.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">January 2024 - December 2024</div>
+                    <h3 class="timeline-title">PROJECT MANAGER | PC PULSE A WEB BASED TOOL FOR COMPUTER PARTS SELECTION AND COMPATIBILITY ANALYSIS</h3>
+                    <h4 class="timeline-company"> STI COLLEGE NOVALICHES</h4>
+                    <p class="timeline-desc">
+                        Directed a multidisciplinary team, managing project milestones, stakeholder communication, and resource allocation.
+                        Implemented Agile methodologies to enhance project efficiency and adaptability.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">January 2019 - May 2020 </div>
+                    <h3 class="timeline-title">LEAD PROGRAMMER | ENROLLMENT SYSTEM FOR  DIVINE TRINITY ELEMENTARY SCHOOL</h3>
+                    <h4 class="timeline-company">BESTLINK COLLEGE OF THE PHILIPPINES</h4>
+                    <p class="timeline-desc">
+                        Led the development of a comprehensive enrollment system, overseeing database design, user interface development, and system integration.
+                        Collaborated with stakeholders to gather requirements and ensure alignment with business objectives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-cards">
+            <div class="education-card">
+                <h3 class="education-school">STI College Novaliches</h3>
+                <h4 class="education-degree">Bachelor of Science in Computer Science</h4>
+                <p class="education-date">2021 - Present</p>
+                <p class="education-desc">
+                    Currently pursuing a degree in Computer Science, focusing on software development, data analytics, and project management.
+                    Engaged in various projects and internships to apply theoretical knowledge in practical settings.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certificate">
+        <h2 class="section-title">Certificates</h2>
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <div class="certificate-img-container">
+                    <img src="certificates/certificate of emotional intelligence.png" alt="Certificate of Emotional Intelligence" class="certificate-img">
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Emotional Intelligence</h3>
+                    <p class="certificate-issuer">Accenture</p>
+                    <p class="certificate-date">November 28, 2024</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <div class="certificate-img-container">
+                    <img src="certificates/CO-Pilot Certificate.png" alt="CO-Pilot Certificate" class="certificate-img">
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">CO-Pilot: Make the World More Inclusive</h3>
+                    <p class="certificate-issuer">Stava.dev</p>
+                    <p class="certificate-date">November 27, 2024</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <div class="certificate-img-container">
+                    <img src="certificates/tesda certificate technoprenurership.png" alt="Technopreneurship Certificate" class="certificate-img">
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Technopreneurship Course</h3>
+                    <p class="certificate-issuer">TESDA</p>
+                    <p class="certificate-date">November 5, 2024</p>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <div class="certificate-img-container">
+                    <img src="certificates/STI Cert.png" alt="STI Certificate" class="certificate-img">
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Best in Communication</h3>
+                    <p class="certificate-issuer">ICT-COE Project Symposium and Exhibit, STI College Novaliches</p>
+                    <p class="certificate-date">December 10, 2024</p>
+                </div>
+            </div>
+        </div>
+        <div id="lightbox" class="lightbox">
+    <img id="lightbox-img" src="" alt="Certificate Preview">
+        </div>
+
+    </section>
+
+    <!-- Contact/About Me Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="about-info">
+                <p class="about-text">
+                    I am a dedicated software developer and data analyst with a passion for building innovative solutions. Currently completing my Computer Science degree at STI College Novaliches, I have experience in web development, data analysis, and project management.
+                </p>
+                <p class="about-text">
+                    I'm actively seeking opportunities where I can contribute my technical skills while continuing to learn and grow in the field. Feel free to reach out if you'd like to collaborate or discuss potential opportunities.
+                </p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p class="contact-label">Email</p>
+                        <p class="contact-value"><a href="mailto:eslitjehan@Gmail.com">eslitjehan@Gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p class="contact-label">Phone</p>
+                        <p class="contact-value">+63 912 345 6789</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <p class="contact-label">Location</p>
+                        <p class="contact-value">Quezon City ,Metro Manila, Philippines</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jehan-eslit/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">Thank you for visiting my portfolio website. I'm looking forward to connecting with you!</p>
+            <p class="copyright">© 2025 Jehan DP. Eslit. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
